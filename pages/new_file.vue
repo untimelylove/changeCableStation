@@ -1,8 +1,8 @@
 <template>
 	<view class="container">
-		<wuc-tab :tab-list="tabList" :tabCur.sync="TabCur" :textFlex="true" @change="tabChange"></wuc-tab>
-		<div v-if="TabCur==0">
-			我是老贴
+		<wuc-tab :tab-list="tabList" :tabCur.sync="TabCur" :textFlex="true" @change="tabChange" class="tabBox"></wuc-tab>
+		<div v-if="TabCur==0" class="tabOne">
+			
 		</div>
 		<div v-else>
 			我是牛
@@ -30,5 +30,12 @@
 	}
 </script>
 <style lang="scss" scoped>
-
+	.container{
+		height:100%;
+		background-color:#fff;
+	}
+	.tabBox{
+		width: 80%;
+		margin: 2% auto;
+	}
 </style>
