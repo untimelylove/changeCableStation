@@ -1,0 +1,86 @@
+
+.mask {
+	position: fixed;
+	z-index: 98;
+	background-color: rgba(0, 0, 0, .7);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+.modal-box {
+	background-color: #FFFFFF;
+	position: fixed;
+	z-index: 99;
+	border-radius: 12rpx;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+.modal-title {
+	box-sizing: border-box;
+	color: #333333;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.modal-content {
+	box-sizing: border-box;
+	color: #333333;
+	word-break: break-all;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.model-bottom {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.modal-btn {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.input-area{
+	border: 1rpx solid #999;
+	width: 100%;
+	padding:0 16rpx;
+	box-sizing: border-box;
+	height: 60rpx;
+	border-radius: 6rpx;
+	outline: none;
+}
+textarea{
+	border: 1rpx solid #999;
+	width: 92%;
+	padding:16rpx;
+	box-sizing: border-box;
+	border-radius: 6rpx;
+	height: 200rpx;
+}
+
+

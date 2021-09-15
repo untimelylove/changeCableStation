@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "XXX项目检查点",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "wyb-button": "/components/wyb-button/wyb-button",
+    "new-file": "/pages/new_file"
+  }
+}

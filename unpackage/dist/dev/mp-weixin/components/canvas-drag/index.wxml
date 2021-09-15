@@ -1,0 +1,1 @@
+<canvas style="{{('width: '+width+'rpx; height: '+height+'rpx;')}}" canvas-id="canvas-drag" disable-scroll="true" data-event-opts="{{[['touchstart',[['start',['$event']]]],['touchmove',[['move',['$event']]]],['touchend',[['end',['$event']]]]]}}" bindtouchstart="__e" bindtouchmove="__e" bindtouchend="__e"></canvas>
